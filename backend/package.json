@@ -1,0 +1,20 @@
+{
+  "name": "prompt-to-3d-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Backend API for generating 3D models from prompts using AI and OpenSCAD",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.18.2",
+    "fs-extra": "^11.1.1",
+    "multer": "^1.4.5-lts.1",
+    "path": "^0.12.7"
+  }
+}
